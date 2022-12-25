@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.container_space,
+.container_history,
+.container_moon,
+.container_station,
+.container_recent {
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container_space {
+  background-image: url(images/space1.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.space__head,
+.discovery__head,
+.moon_head,
+.station__head {
+  color: white;
+
+  border-radius: 10px 0px 10px 0px;
+  text-align: center;
+  padding: 25px 75px;
+
+  outline-offset: 10px;
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  width: 30%;
+}
+
+.space__content {
+  text-align: center;
+  background-image: linear-gradient(135deg, #f05f57 10%, #360940 100%);
+  color: white;
+}
+
+.container_history {
+  background-image: url(images/space2.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+.discovery__content {
+  text-align: center;
+  background-image: radial-gradient(
+    circle 590px at 8.2% 13.8%,
+    rgba(18, 35, 60, 1) 0%,
+    #bbb 90%
+  );
+}
+
+.container_moon {
+  background-image: url(images/moon-mission.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.moon__content {
+  text-align: center;
+  background-image: linear-gradient(
+    112.1deg,
+    rgba(32, 38, 57, 1) 11.4%,
+    rgba(63, 76, 119, 1) 70.2%
+  );
+  color: white;
+}
+
+.container_station {
+  background-image: url(images/space-station.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.staion__content {
+  text-align: center;
+  background-image: radial-gradient(
+    circle farthest-corner at 5.6% 54.5%,
+    rgba(47, 71, 79, 1) 0%,
+    rgba(159, 188, 198, 1) 83.6%
+  );
+  font-weight: bold;
+}
+
+.container_recent {
+  background-image: url(images/james\ webb.png);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.recent__content {
+  text-align: center;
+  background-image: radial-gradient(
+    circle farthest-corner at 50.3% 44.5%,
+    rgba(116, 147, 179, 1) 0%,
+    rgba(62, 83, 104, 1) 100.2%
+  );
+  color: white;
+}
+
+.space__head {
+  letter-spacing: 5px;
+  font-weight: bold;
+  border: 5px inset rgba(8, 239, 239, 0.8);
+  outline: 5px outset rgba(242, 13, 227, 0.652);
+}
+
+.discovery__head {
+  letter-spacing: 5px;
+  font-weight: bold;
+  border: 5px inset rgba(8, 239, 239, 0.8);
+  outline: 5px outset rgba(5, 36, 87, 0.951);
+}
+
+.moon_head {
+  letter-spacing: 5px;
+  font-weight: bold;
+  border: 5px inset rgb(242, 241, 245);
+  outline: 5px outset rgba(242, 22, 22, 0.951);
+}
+
+.station__head {
+  letter-spacing: 2px;
+  font-weight: bold;
+  border: 5px inset rgba(86, 154, 238, 0.97);
+  outline: 5px outset rgba(15, 11, 232, 0.951);
+}
+
+.recent__head {
+  letter-spacing: 2px;
+  font-weight: bold;
+  border: 5px inset rgb(0, 0, 0);
+  outline: 5px outset rgb(255, 255, 255);
+  color: white;
+  border-radius: 10px 0px 10px 0px;
+  text-align: center;
+  padding: 25px 75px;
+  outline-offset: 10px;
+  position: absolute;
+  top: 25%;
+  left: 36%;
+  width: 30%;
+}
